@@ -8,7 +8,6 @@ This is a simple Todo App API built with Node.js, TypeScript, and MongoDB.
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Environment Variables](#environment-variables)
 - [Usage](#usage)
 
 ## Features
@@ -46,12 +45,13 @@ This is a simple Todo App API built with Node.js, TypeScript, and MongoDB.
    npm install
 
 4. Environment Variables
-PORT=3000
-MONGODB_URI=mongodb://localhost:27017/todo-app
-JWT_SECRET_KEY=your_secret_key
+```env
+MONGODB_URI=mongodb://localhost:27017/user-to-do
+JWT_SECRET=Its_my_secret
+PORT=7000
+```
 
-
-Usage
+### Usage
 Start the server:
 
 ```bash
